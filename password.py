@@ -8,7 +8,7 @@ class Password:
         self._count_ = _count_
 
     def password_gen(self):
-        for i in range(1, self._count_):
+        for i in range(0, self._count_):
             password = str()
             for n in range(1, self._length_):
                 char = random.choice(CHARSET)
