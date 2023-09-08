@@ -10,7 +10,7 @@ class Password:
     def password_gen(self):
         for i in range(0, self._count_):
             password = str()
-            for n in range(1, self._length_):
+            for n in range(0, self._length_):
                 char = random.choice(CHARSET)
                 password = password + char
             print(password)
